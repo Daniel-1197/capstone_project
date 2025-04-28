@@ -44,31 +44,33 @@ The system is designed to **automatically test** the functionality of the CRM de
 
 ### ✅ Test Case 01
 - Login with multiple users (`standard_user`, `problem_user`, etc.)
+- 
+### ✅ Test Case 02
 - Login using cookies (without navigating to login page)
 - Pytest HTML report
 
-### ✅ Test Case 02
+### ✅ Test Case 03
 - Login with invalid credentials (`guvi_user`, `secret@123`)
 - Report generation
 
-### ✅ Test Case 03
+### ✅ Test Case 04
 - Verify logout functionality and its visibility
 
-### ✅ Test Case 04
+### ✅ Test Case 05
 - Verify cart button visibility
 
-### ✅ Test Case 05
+### ✅ Test Case 06
 - Randomly select 4 out of 6 products using Python
 - Fetch and print product name & price
 
-### ✅ Test Case 06
+### ✅ Test Case 07
 - Randomly choose and add 4 products to the cart
 - Verify the cart badge count reflects 4 items
 
-### ✅ Test Case 07
+### ✅ Test Case 08
 - Fetch and validate product details from the cart
 
-### ✅ Test Case 08
+### ✅ Test Case 09
 - Complete the checkout form (first name, last name, ZIP)
 - Take a screenshot of checkout overview
 - Finish purchase and validate confirmation
